@@ -120,15 +120,23 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
-exports.Prisma.TransactionScalarFieldEnum = {
+exports.Prisma.Spatial_ref_sysScalarFieldEnum = {
+  srid: 'srid',
+  auth_name: 'auth_name',
+  auth_srid: 'auth_srid',
+  srtext: 'srtext',
+  proj4text: 'proj4text'
+};
+
+exports.Prisma.TransactionsScalarFieldEnum = {
   id: 'id',
-  transactionId: 'transactionId',
-  userId: 'userId',
+  transaction_id: 'transaction_id',
+  user_id: 'user_id',
   amount: 'amount',
   timestamp: 'timestamp',
   merchant: 'merchant',
-  isFraud: 'isFraud',
-  fraudReason: 'fraudReason'
+  is_fraud: 'is_fraud',
+  fraud_reason: 'fraud_reason'
 };
 
 exports.Prisma.SortOrder = {
@@ -148,7 +156,8 @@ exports.Prisma.NullsOrder = {
 
 
 exports.Prisma.ModelName = {
-  Transaction: 'Transaction'
+  spatial_ref_sys: 'spatial_ref_sys',
+  transactions: 'transactions'
 };
 
 /**

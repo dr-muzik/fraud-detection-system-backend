@@ -1,0 +1,82 @@
+[
+  {
+    "transactionId": "loc-tx-001",
+    "userId": "user987",
+    "amount": 100,
+    "timestamp": "2025-05-01T10:00:00Z",
+    "merchant": "Merchant1",
+    "location": { "lat": 40.7128, "lon": -74.006 }
+  },
+  {
+    "transactionId": "loc-tx-002",
+    "userId": "user987",
+    "amount": 150,
+    "timestamp": "2025-05-01T10:01:00Z",
+    "merchant": "Merchant2",
+    "location": { "lat": 34.0522, "lon": -118.2437 }
+  },
+  {
+    "transactionId": "loc-tx-003",
+    "userId": "user987",
+    "amount": 120,
+    "timestamp": "2025-05-01T10:02:00Z",
+    "merchant": "Merchant3",
+    "location": { "lat": 51.5074, "lon": -0.1278 }
+  },
+  {
+    "transactionId": "loc-tx-004",
+    "userId": "user987",
+    "amount": 90,
+    "timestamp": "2025-05-01T10:03:00Z",
+    "merchant": "Merchant4",
+    "location": { "lat": 48.8566, "lon": 2.3522 }
+  },
+  {
+    "transactionId": "loc-tx-005",
+    "userId": "user987",
+    "amount": 110,
+    "timestamp": "2025-05-01T10:04:00Z",
+    "merchant": "Merchant5",
+    "location": { "lat": 35.6895, "lon": 139.6917 }
+  },
+  {
+    "transactionId": "loc-tx-006",
+    "userId": "user20",
+    "amount": 130,
+    "timestamp": "2025-05-01T10:05:00Z",
+    "merchant": "Merchant6",
+    "location": { "lat": -33.8688, "lon": 151.2093 }
+  },
+  {
+    "transactionId": "loc-tx-007",
+    "userId": "user20",
+    "amount": 95,
+    "timestamp": "2025-05-01T10:06:00Z",
+    "merchant": "Merchant7",
+    "location": { "lat": 55.7558, "lon": 37.6176 }
+  },
+  {
+    "transactionId": "loc-tx-008",
+    "userId": "user20",
+    "amount": 160,
+    "timestamp": "2025-05-01T10:07:00Z",
+    "merchant": "Merchant8",
+    "location": { "lat": -1.2921, "lon": 36.8219 }
+  },
+  {
+    "transactionId": "loc-tx-009",
+    "userId": "user21",
+    "amount": 170,
+    "timestamp": "2025-05-01T10:08:00Z",
+    "merchant": "Merchant9",
+    "location": { "lat": -34.6037, "lon": -58.3816 }
+  },
+  {
+    "transactionId": "loc-tx-010",
+    "userId": "user987",
+    "amount": 85,
+    "timestamp": "2025-05-01T10:09:00Z",
+    "merchant": "Merchant10",
+    "location": { "lat": 6.5244, "lon": 3.3792 }
+  }
+]
